@@ -1,0 +1,6 @@
+## Interface: 60200
+## Title: Unteleporter
+## Author: Fredrik G
+## Notes: Automatically swaps back to normal gear after using teleportation items.
+## Version: 0.1
+Unteleporter.lua
