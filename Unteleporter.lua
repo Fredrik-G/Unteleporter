@@ -57,7 +57,8 @@ local gearSlots = {
 	"Finger1Slot",
 	"Trinket0Slot",
 	"Trinket1Slot",
-	"BackSlot"
+	"BackSlot",
+	"TabardSlot"
 }
 -- table containing the players gear.
 -- key 	 = inventoryID.
