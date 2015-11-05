@@ -124,7 +124,7 @@ local function restoreGear(displayWarnings)
 			elseif isTeleItem and currentGear[inventoryID] == nil then
 				informPlayer(GetInventoryItemLink("player", inventoryID) .. " is equipped.", true, true)
 			end
-		else
+		elseif inventoryName ~= "TabardSlot" then
 			informPlayer("Nothing equipped in " .. inventoryName .. "!", true, true)
 		end
 	end
